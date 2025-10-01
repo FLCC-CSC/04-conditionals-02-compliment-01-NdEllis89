@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Noah Ellis
+# DATE: 10/1/25
+# BRIEF DESCRIPTION: Determine whether or not user would like a compliment
 
 
 
@@ -15,8 +15,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
+compliment = input('Would you like a compliment? ')
+    
+if (compliment == 'yes'): 
+    print('You have wonderful eyes.')
 
-
+print('Thank you for playing.')
 
 
 
@@ -66,11 +70,12 @@ Thank you for playing.
 '''
 
 1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
+I would rate this a 3
 
 
 
 2. What was the hardest part of this lab?
+Not using "else" for the "thank you for playing" line.
 
 
 
